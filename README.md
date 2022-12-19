@@ -1,3 +1,3 @@
-# Coding-Ninjas-java
+# Coding-Ninjas-Java-Course
  
-<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="60016668-4437-498a-9bff-f5b6b9faf607.png">
