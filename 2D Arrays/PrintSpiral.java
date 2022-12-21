@@ -2,6 +2,7 @@
 public class Solution {
 
 	public static void spiralPrint(int matrix[][]){
+		
 		//Your code goes here
         
         if(matrix.length == 0)
@@ -22,7 +23,7 @@ public class Solution {
 			int j = cs;
 			while(j<=ce)
 			{
-				System.out.print(matrix[rs][j]+" "); //1 2 3 4 
+				System.out.print(matrix[rs][j]+" ");                //1 2 3 4 
 				j++;
 				count++;
 			}
@@ -30,7 +31,7 @@ public class Solution {
 			i++;
 			while(i<=re)
 			{
-				System.out.print(matrix[i][ce]+" "); // 1 2 3 4 5 6 7 8
+				System.out.print(matrix[i][ce]+" ");                // 1 2 3 4 5 6 7 8
 				i++;
 				count++;
 				
@@ -39,7 +40,7 @@ public class Solution {
 			int k = ce;
 			while(k>=cs)
 			{
-				System.out.print(matrix[re][k]+" ");// 1 2 3 4 5 6 7 8 9 10 11
+				System.out.print(matrix[re][k]+" ");                 // 1 2 3 4 5 6 7 8 9 10 11
 				k--;
 				count++;
 			}
@@ -48,7 +49,7 @@ public class Solution {
 			int l = re;
 			while(l>=rs)
 			{
-				System.out.print(matrix[l][cs]+" "); // 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+				System.out.print(matrix[l][cs]+" ");                  // 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
 				l--;
 				count++;
 			}
