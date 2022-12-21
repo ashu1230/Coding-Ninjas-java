@@ -10,7 +10,7 @@ public class Solution {
         int r = mat.length;
 		int c = mat[0].length;
 
-		int all[] = new int[40]; //arraylist
+		int all[] = new int[40]; 	//arraylist
 		int sum = 0;
 		int k =0;
 		
@@ -55,7 +55,9 @@ public class Solution {
 				k++;
 			}
 		}
+		
 		//diagonals 
+		
 		for(int i = 0;i<r;i++)
 		{
 			for(int j = 0;j<c;j++)
@@ -112,5 +114,5 @@ public class Solution {
 
 	}
         
-	}
+}
 
