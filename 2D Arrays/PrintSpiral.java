@@ -18,6 +18,7 @@ public class Solution {
 		int count = 1;
 		
 		while(count<=(n*m))
+			
 		{
 			int i = rs;
 			int j = cs;
