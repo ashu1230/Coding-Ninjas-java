@@ -5,9 +5,13 @@ public class Solution {
 	{
 		
 		Scanner sc = new Scanner(System.in);
+	    
 		//System.out.println("Enter R: ");
+	    
 		int r = sc.nextInt();
+	    
 		//System.out.println("Enter C: ");
+	    
 		int c = sc.nextInt();
         
         if(r==0 & c==0)
