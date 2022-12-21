@@ -2,9 +2,11 @@
 public class Solution {
 
 	public static void wavePrint(int mat[][]){
+		
 		//Your code goes here
         
         //the case when row = 0 and column = 0
+		
         if(mat.length == 0){
             return;
         }
