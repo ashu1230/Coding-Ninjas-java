@@ -4,7 +4,9 @@ public class Solution {
 
 
 	public static void totalSum(int[][] mat) {
+		
 		//Your code goes here
+		
         int r = mat.length;
 		int c = mat[0].length;
 
