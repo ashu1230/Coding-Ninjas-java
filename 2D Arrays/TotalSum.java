@@ -35,7 +35,9 @@ public class Solution {
 				k++;
 			}
 		}
+		
 		//column boundaries
+		
 		for(int j=0;j<1;j++)
 		{
 			for(int i = 0; i<r;i++)
@@ -71,7 +73,9 @@ public class Solution {
 			all[k]=mat[r-j-1][j];
 			k++;
 		}
+		
 		//removing duplicates from array
+		
 		Arrays.sort(all);
 
 //		for(int i = 0;i<all.length;i++)
@@ -89,6 +93,7 @@ public class Solution {
 				break;
 			}
 		}
+		
 		//System.out.println(zeroi);
 
 		sum=all[zeroi];
