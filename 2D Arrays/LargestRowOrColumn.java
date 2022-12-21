@@ -27,6 +27,7 @@ public class Solution {
 			for(int j = 0;j<c;j++)
 			{
 				//System.out.println("Enter "+i+"th row "+j+"th element");
+				
 				arr[i][j]=sc.nextInt();
 			}
 		}
@@ -35,7 +36,9 @@ public class Solution {
 	}
 
 	public static void findLargest(int mat[][]){
+		
 		//Your code goes here
+		
         int maxc= Integer.MIN_VALUE;
         int ci = 0;
 		
