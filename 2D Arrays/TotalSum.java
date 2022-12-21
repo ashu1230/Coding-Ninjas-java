@@ -13,7 +13,9 @@ public class Solution {
 		int all[] = new int[40]; //arraylist
 		int sum = 0;
 		int k =0;
+		
 		//row boundaries
+		
 		for(int i = 0;i<1;i++)
 		{
 			for(int j = 0;j<c;j++)
