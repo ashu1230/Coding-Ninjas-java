@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Solution {
 
 	public static void rowWiseSum(int[][] mat) {
-	  int row = mat.length;
+	int row = mat.length;
         int col = mat[0].length;
         
         int sum=0;
